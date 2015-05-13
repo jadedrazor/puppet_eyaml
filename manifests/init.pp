@@ -5,7 +5,7 @@ class puppet_eyaml (
   $keysdirectory = '/etc/puppet/secure/'){
 
   
-  package {' ':
+  package {'hiera-eyaml':
     ensure => present,
     provider => 'gem';
   }
